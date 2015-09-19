@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ARNRouletteWheelView_Example', :exclusive => true do
+  pod "ARNRouletteWheelView", :path => "../"
+end
+
+target 'ARNRouletteWheelView_Tests', :exclusive => true do
+  pod "ARNRouletteWheelView", :path => "../"
+
+  
+end
