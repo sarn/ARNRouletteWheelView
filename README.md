@@ -22,7 +22,7 @@ pod "ARNRouletteWheelView"
 
 ## Author
 
-Stefan Arn, arnstefan@gmail.com
+Stefan Arn
 
 ## License
 
