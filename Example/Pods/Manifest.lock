@@ -1,0 +1,14 @@
+PODS:
+  - ARNRouletteWheelView (0.1.0)
+
+DEPENDENCIES:
+  - ARNRouletteWheelView (from `../`)
+
+EXTERNAL SOURCES:
+  ARNRouletteWheelView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARNRouletteWheelView: 90f4e9ea7fd539695755195eeabec665bddcb0f9
+
+COCOAPODS: 0.38.2

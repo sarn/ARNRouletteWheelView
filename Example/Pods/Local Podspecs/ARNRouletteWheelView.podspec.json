@@ -1,0 +1,25 @@
+{
+  "name": "ARNRouletteWheelView",
+  "version": "0.1.0",
+  "summary": "A short description of ARNRouletteWheelView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ARNRouletteWheelView",
+  "license": "MIT",
+  "authors": {
+    "Stefan Arn": "arnstefan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ARNRouletteWheelView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ARNRouletteWheelView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

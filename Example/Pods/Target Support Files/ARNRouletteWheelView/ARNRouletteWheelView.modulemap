@@ -1,0 +1,6 @@
+framework module ARNRouletteWheelView {
+  umbrella header "ARNRouletteWheelView-umbrella.h"
+
+  export *
+  module * { export * }
+}
