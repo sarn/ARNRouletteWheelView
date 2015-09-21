@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-A custom UICollectionView layout which resembles a spinning roulette wheel. The cells are laid out on an invisible wheel and by scrolling the wheel spins.
+A custom UICollectionView layout which resembles a spinning roulette wheel. The cells are laid out on an invisible wheel and the wheel spins by scrolling horizontally.
                        DESC
 
   s.homepage         = "https://github.com/sarn/ARNRouletteWheelView"
