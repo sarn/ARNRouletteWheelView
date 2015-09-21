@@ -1,15 +1,15 @@
 {
   "name": "ARNRouletteWheelView",
   "version": "0.1.0",
-  "summary": "A short description of ARNRouletteWheelView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ARNRouletteWheelView",
+  "summary": "A roulette wheel like custom UICollectionView layout",
+  "description": "A custom UICollectionView layout which resembles a spinning roulette wheel. The cells are laid out on an invisible wheel and by scrolling the wheel spins.",
+  "homepage": "https://github.com/sarn/ARNRouletteWheelView",
   "license": "MIT",
   "authors": {
-    "Stefan Arn": "arnstefan@gmail.com"
+    "Stefan Arn": ""
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ARNRouletteWheelView.git",
+    "git": "https://github.com/sarn/ARNRouletteWheelView.git",
     "tag": "0.1.0"
   },
   "platforms": {

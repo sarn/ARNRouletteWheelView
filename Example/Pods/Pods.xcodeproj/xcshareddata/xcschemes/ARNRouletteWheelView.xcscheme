@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3EF17E35DD32B47F4D7A737B"
+               BlueprintIdentifier = "496771B3F4F7769DD69ED4A0"
                BuildableName = "ARNRouletteWheelView.framework"
                BlueprintName = "ARNRouletteWheelView"
                ReferencedContainer = "container:Pods.xcodeproj">

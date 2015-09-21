@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface ARNViewController : UIViewController
+@interface ARNViewController : UIViewController <UICollectionViewDataSource>
 
 @end

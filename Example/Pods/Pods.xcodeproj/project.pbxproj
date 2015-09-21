@@ -7,81 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0113394CF1B0D75597E59E0C3E335B45 /* ARNRouletteWheelView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 426A224419B7F39B87566F188AE33C24 /* ARNRouletteWheelView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AB75CFD532C42ADC911F2108A80E11E /* ARNRouletteWheelLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DCFF47882068B0DB2BD943FDDD8ECE /* ARNRouletteWheelLayoutAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237CD00F6E9C4D900258EA22CE245C16 /* ARNRouletteWheelView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E83DA73C3B92C60A0663CBADF08C753C /* ARNRouletteWheelView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25BBB3144ABB4F91AD0F0441B0535254 /* ARNRouletteWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B1D2939F2A4D820440CEEB67BB1D9 /* ARNRouletteWheelView.m */; };
+		2EE9724EC04219B253AFF910F5D09858 /* ARNRouletteWheelLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 094DBE6144AA639C62DB4CDEF735AF38 /* ARNRouletteWheelLayoutAttributes.m */; };
+		37100EF4D27FE68A7DD162D502B90E48 /* ARNRouletteWheelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 041B055ECE036C9383615C5B6629655B /* ARNRouletteWheelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4413BBB10C8CDF6521DD61378A6EC9BE /* ARNRouletteWheelLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F196D9741B33B0001FB48EBFE1909434 /* ARNRouletteWheelLayout.m */; };
 		458EF1EC3BEBB6B904AD4CE7AF2F7A54 /* Pods-ARNRouletteWheelView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECA0DE196786D2A0F27E9467AD63B26 /* Pods-ARNRouletteWheelView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E97A215E693C7BF38E64CD1F7E331DB /* Pods-ARNRouletteWheelView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 005C6F115C96FF20409E0CB3C204AB23 /* Pods-ARNRouletteWheelView_Tests-dummy.m */; };
-		4EE12CD02852A4FBEFA4B147A67A5EB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C897100441A348C1E9CEB807EBC028E /* Foundation.framework */; };
-		6E69B7D1A5F4346C5F4F9EA801BAC4DD /* ARNRouletteWheelView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C422FBBF63CEB814952C3ACD3E61F4 /* ARNRouletteWheelView-dummy.m */; };
-		7E8E9DEE5351C52BB16655C4C8F84745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C897100441A348C1E9CEB807EBC028E /* Foundation.framework */; };
+		6370F02156E6418A8275CDE3DECCEEDA /* ARNRouletteWheelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 315E18F8F31783792D4A1831D25833CC /* ARNRouletteWheelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E8E9DEE5351C52BB16655C4C8F84745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E29FD721249A992EE62B29BA3E827C0 /* Foundation.framework */; };
 		AB39201DA829431DB4BC61C5B7A9CF6B /* Pods-ARNRouletteWheelView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 457E18E207593A8F380D602B29931682 /* Pods-ARNRouletteWheelView_Example-dummy.m */; };
-		B6705440098B0572419E364C1D89E845 /* ARNRouletteWheelView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FC924FB361EC863427727718DC4875E /* ARNRouletteWheelView.bundle */; };
 		B83CB30A1F6EDB9ED7FC1EBB2AC7014A /* Pods-ARNRouletteWheelView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED9E1C2E73B6273786A1F4EFAA8EFF3 /* Pods-ARNRouletteWheelView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4997D677EF67E595672AB8576B21008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C897100441A348C1E9CEB807EBC028E /* Foundation.framework */; };
-		EEE152D36F8251695FAF6C0D1DF28769 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1231ABA4878F666FAE2CC69A8025FC /* ReplaceMe.m */; };
+		CCB6F6CC23761AD654210BAFFE9D8E2B /* ARNRouletteWheelView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3CCB5C27F764971E12F9D8744A756 /* ARNRouletteWheelView.bundle */; };
+		D21C91A292166F42C297B30C6790DDA5 /* ARNRouletteWheelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D818C53BC51B576BA9498BDEEC6FC380 /* ARNRouletteWheelCell.m */; };
+		D4997D677EF67E595672AB8576B21008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E29FD721249A992EE62B29BA3E827C0 /* Foundation.framework */; };
+		DBBB324E60757D2E8B15D44F8A32BB67 /* ARNRouletteWheelLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 97235ACBAAD98CA179A1B7034CFC4252 /* ARNRouletteWheelLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E838BC9DE051478434B954DD79D85042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E29FD721249A992EE62B29BA3E827C0 /* Foundation.framework */; };
+		EC3A88265F85797A4953B70CEFA91A31 /* ARNRouletteWheelView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC159CD30CBD909B6BD75371FF1A81 /* ARNRouletteWheelView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B0DE9106E0AEEEB8B8B7697D9981C27 /* PBXContainerItemProxy */ = {
+		1F53AD75DC3B103E3E91DC279B8A7B39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AF798AB4688D161237B04A788895B7A8;
+			remoteGlobalIDString = D5DDD0A80C6C8CA6A5BACC0254EA4A6B;
+			remoteInfo = ARNRouletteWheelView;
+		};
+		223F38F0E9D0C536442750AF1271FD27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DDD0A80C6C8CA6A5BACC0254EA4A6B;
+			remoteInfo = ARNRouletteWheelView;
+		};
+		E1A5FD064E9B4AB86FCCE0F71DF97F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3524E41835E31AE507E5AD80458C9795;
 			remoteInfo = "ARNRouletteWheelView-ARNRouletteWheelView";
-		};
-		588300DE1C507042F543F37F9CBF4009 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74C5D96744DB52596A2C198A69AFE866;
-			remoteInfo = ARNRouletteWheelView;
-		};
-		A4520DE21740DA8E63E673DA0D5EE9B5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74C5D96744DB52596A2C198A69AFE866;
-			remoteInfo = ARNRouletteWheelView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		005C6F115C96FF20409E0CB3C204AB23 /* Pods-ARNRouletteWheelView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARNRouletteWheelView_Tests-dummy.m"; sourceTree = "<group>"; };
-		0C213C9173A5A88B3BCA3493079C59C5 /* ARNRouletteWheelView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ARNRouletteWheelView-Private.xcconfig"; sourceTree = "<group>"; };
+		041B055ECE036C9383615C5B6629655B /* ARNRouletteWheelCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARNRouletteWheelCell.h; sourceTree = "<group>"; };
+		094DBE6144AA639C62DB4CDEF735AF38 /* ARNRouletteWheelLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARNRouletteWheelLayoutAttributes.m; sourceTree = "<group>"; };
+		0E29FD721249A992EE62B29BA3E827C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		153CD89201544ACD9B0D11551A5EAE60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ECA0DE196786D2A0F27E9467AD63B26 /* Pods-ARNRouletteWheelView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARNRouletteWheelView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		28AFA73FB7343EDE8DF6000DC68C4A81 /* Pods-ARNRouletteWheelView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARNRouletteWheelView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B5627C14F116323978AC3DF31EDE80E /* ARNRouletteWheelView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARNRouletteWheelView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6EB03535FF5D7B76F1CB76976B9079 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315E18F8F31783792D4A1831D25833CC /* ARNRouletteWheelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARNRouletteWheelView.h; sourceTree = "<group>"; };
 		3247C3D3F4CA9369BE0B62558D6D35E1 /* ARNRouletteWheelView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARNRouletteWheelView-prefix.pch"; sourceTree = "<group>"; };
+		3B9B1D2939F2A4D820440CEEB67BB1D9 /* ARNRouletteWheelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARNRouletteWheelView.m; sourceTree = "<group>"; };
 		3D8246DD50F3519E05E3E6D07C376750 /* Pods-ARNRouletteWheelView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARNRouletteWheelView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3EC97DCBAB60842E3D923540F3E6A5E7 /* ARNRouletteWheelView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARNRouletteWheelView.xcconfig; sourceTree = "<group>"; };
-		426A224419B7F39B87566F188AE33C24 /* ARNRouletteWheelView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARNRouletteWheelView-umbrella.h"; sourceTree = "<group>"; };
 		457E18E207593A8F380D602B29931682 /* Pods-ARNRouletteWheelView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARNRouletteWheelView_Example-dummy.m"; sourceTree = "<group>"; };
 		4E93E5A4251E4AB8FFD8DCEE02AC6EB1 /* Pods-ARNRouletteWheelView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ARNRouletteWheelView_Tests.modulemap"; sourceTree = "<group>"; };
-		4FC924FB361EC863427727718DC4875E /* ARNRouletteWheelView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARNRouletteWheelView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DCFF47882068B0DB2BD943FDDD8ECE /* ARNRouletteWheelLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARNRouletteWheelLayoutAttributes.h; sourceTree = "<group>"; };
 		56AF8973A9ECD4CACA8C8DD2C7B43F35 /* ARNRouletteWheelView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ARNRouletteWheelView.modulemap; sourceTree = "<group>"; };
-		5C897100441A348C1E9CEB807EBC028E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		62C422FBBF63CEB814952C3ACD3E61F4 /* ARNRouletteWheelView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARNRouletteWheelView-dummy.m"; sourceTree = "<group>"; };
+		57DC159CD30CBD909B6BD75371FF1A81 /* ARNRouletteWheelView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARNRouletteWheelView-dummy.m"; sourceTree = "<group>"; };
 		6B3D0FC1D342E72CC3FD5495A8FC42C9 /* Pods-ARNRouletteWheelView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARNRouletteWheelView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7504066734ED01C78C1D0AFC372DAA72 /* Pods-ARNRouletteWheelView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARNRouletteWheelView_Example-resources.sh"; sourceTree = "<group>"; };
+		75A80AAB87AFC046865FB0DDBC83B266 /* ARNRouletteWheelView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ARNRouletteWheelView-Private.xcconfig"; sourceTree = "<group>"; };
 		77CE0A3EC1E83E5FC4F949D0240585FF /* Pods-ARNRouletteWheelView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARNRouletteWheelView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7EC3CCB5C27F764971E12F9D8744A756 /* ARNRouletteWheelView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARNRouletteWheelView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED9E1C2E73B6273786A1F4EFAA8EFF3 /* Pods-ARNRouletteWheelView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARNRouletteWheelView_Example-umbrella.h"; sourceTree = "<group>"; };
+		97235ACBAAD98CA179A1B7034CFC4252 /* ARNRouletteWheelLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARNRouletteWheelLayout.h; sourceTree = "<group>"; };
 		A3C1890CC482C0274E25873A21656740 /* Pods_ARNRouletteWheelView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARNRouletteWheelView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60EB76A23C59D494C4B2CEB29BA9F57 /* Pods-ARNRouletteWheelView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARNRouletteWheelView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A9F84A88A216396EBCCA745BCAE7943D /* Pods-ARNRouletteWheelView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARNRouletteWheelView_Tests-resources.sh"; sourceTree = "<group>"; };
 		B6724D505EE88C6E6C05B1CB91481A65 /* Pods-ARNRouletteWheelView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARNRouletteWheelView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CA1231ABA4878F666FAE2CC69A8025FC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		CAA51623D98EDABCA3C9A83633F5B870 /* Pods-ARNRouletteWheelView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARNRouletteWheelView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE11A43EBDAA713F8AB6194D72B76EA0 /* Pods-ARNRouletteWheelView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARNRouletteWheelView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CFAEAC87135A43A6C4A8AA0701572ED0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D818C53BC51B576BA9498BDEEC6FC380 /* ARNRouletteWheelCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARNRouletteWheelCell.m; sourceTree = "<group>"; };
+		E83DA73C3B92C60A0663CBADF08C753C /* ARNRouletteWheelView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARNRouletteWheelView-umbrella.h"; sourceTree = "<group>"; };
 		ED57E903AFF0479A17D59F0D6D35DB06 /* Pods-ARNRouletteWheelView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARNRouletteWheelView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EDD7AF494DA5C68A471D5B87F6452438 /* Pods-ARNRouletteWheelView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARNRouletteWheelView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F196D9741B33B0001FB48EBFE1909434 /* ARNRouletteWheelLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARNRouletteWheelLayout.m; sourceTree = "<group>"; };
 		F301144A66A4C310C490A6ECF25DF801 /* Pods-ARNRouletteWheelView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ARNRouletteWheelView_Example.modulemap"; sourceTree = "<group>"; };
 		F7AFC55BA955EBCAA45CD544E9119361 /* Pods_ARNRouletteWheelView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARNRouletteWheelView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A861A5A8740B78721C960D9EE058F1 /* ARNRouletteWheelView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARNRouletteWheelView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0ACAE2EA80B129B930B71BCF6EC983E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0EAE6EAA009495238FB3493A7FC9F2F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,10 +111,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E70A03E440446F171E3795C20AAC31C /* Frameworks */ = {
+		5CC509FD2ECD9C43413960802F3E9FCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E838BC9DE051478434B954DD79D85042 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,14 +127,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAC496D59F6BE0C2E72BB884132F2A07 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EE12CD02852A4FBEFA4B147A67A5EB4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -121,10 +135,10 @@
 			children = (
 				56AF8973A9ECD4CACA8C8DD2C7B43F35 /* ARNRouletteWheelView.modulemap */,
 				3EC97DCBAB60842E3D923540F3E6A5E7 /* ARNRouletteWheelView.xcconfig */,
-				0C213C9173A5A88B3BCA3493079C59C5 /* ARNRouletteWheelView-Private.xcconfig */,
-				62C422FBBF63CEB814952C3ACD3E61F4 /* ARNRouletteWheelView-dummy.m */,
+				75A80AAB87AFC046865FB0DDBC83B266 /* ARNRouletteWheelView-Private.xcconfig */,
+				57DC159CD30CBD909B6BD75371FF1A81 /* ARNRouletteWheelView-dummy.m */,
 				3247C3D3F4CA9369BE0B62558D6D35E1 /* ARNRouletteWheelView-prefix.pch */,
-				426A224419B7F39B87566F188AE33C24 /* ARNRouletteWheelView-umbrella.h */,
+				E83DA73C3B92C60A0663CBADF08C753C /* ARNRouletteWheelView-umbrella.h */,
 				153CD89201544ACD9B0D11551A5EAE60 /* Info.plist */,
 			);
 			name = "Support Files";
@@ -160,7 +174,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5C897100441A348C1E9CEB807EBC028E /* Foundation.framework */,
+				0E29FD721249A992EE62B29BA3E827C0 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -183,10 +197,25 @@
 			path = "Target Support Files/Pods-ARNRouletteWheelView_Example";
 			sourceTree = "<group>";
 		};
+		70D75FDCE5BEC334B177C359D30B032B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				315E18F8F31783792D4A1831D25833CC /* ARNRouletteWheelView.h */,
+				3B9B1D2939F2A4D820440CEEB67BB1D9 /* ARNRouletteWheelView.m */,
+				97235ACBAAD98CA179A1B7034CFC4252 /* ARNRouletteWheelLayout.h */,
+				F196D9741B33B0001FB48EBFE1909434 /* ARNRouletteWheelLayout.m */,
+				041B055ECE036C9383615C5B6629655B /* ARNRouletteWheelCell.h */,
+				D818C53BC51B576BA9498BDEEC6FC380 /* ARNRouletteWheelCell.m */,
+				55DCFF47882068B0DB2BD943FDDD8ECE /* ARNRouletteWheelLayoutAttributes.h */,
+				094DBE6144AA639C62DB4CDEF735AF38 /* ARNRouletteWheelLayoutAttributes.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		7103823927454645D379B9B89E773484 /* ARNRouletteWheelView */ = {
 			isa = PBXGroup;
 			children = (
-				ABB9C0DF756A347256E974342C6858BF /* Pod */,
+				7F51E28BC1FB6C99101506DF0F50EA4E /* Pod */,
 				12E9B774FF948F398B1A01054067A29E /* Support Files */,
 			);
 			name = ARNRouletteWheelView;
@@ -204,6 +233,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		7F51E28BC1FB6C99101506DF0F50EA4E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				70D75FDCE5BEC334B177C359D30B032B /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		A6516E8D485FA0C3C7F0196EA9B43D7C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,14 +248,6 @@
 				4CBEC106A7C0C1FFB6CE70AF48BE932B /* Pods-ARNRouletteWheelView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		ABB9C0DF756A347256E974342C6858BF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C6FE88B99C0459B0D5935A68782AC3B7 /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -229,19 +258,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6FE88B99C0459B0D5935A68782AC3B7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CA1231ABA4878F666FAE2CC69A8025FC /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FC924FB361EC863427727718DC4875E /* ARNRouletteWheelView.bundle */,
-				F8A861A5A8740B78721C960D9EE058F1 /* ARNRouletteWheelView.framework */,
+				7EC3CCB5C27F764971E12F9D8744A756 /* ARNRouletteWheelView.bundle */,
+				2B5627C14F116323978AC3DF31EDE80E /* ARNRouletteWheelView.framework */,
 				F7AFC55BA955EBCAA45CD544E9119361 /* Pods_ARNRouletteWheelView_Example.framework */,
 				A3C1890CC482C0274E25873A21656740 /* Pods_ARNRouletteWheelView_Tests.framework */,
 			);
@@ -251,19 +272,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		35186A074E9E3416DE755E46349C4F10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37100EF4D27FE68A7DD162D502B90E48 /* ARNRouletteWheelCell.h in Headers */,
+				DBBB324E60757D2E8B15D44F8A32BB67 /* ARNRouletteWheelLayout.h in Headers */,
+				0AB75CFD532C42ADC911F2108A80E11E /* ARNRouletteWheelLayoutAttributes.h in Headers */,
+				237CD00F6E9C4D900258EA22CE245C16 /* ARNRouletteWheelView-umbrella.h in Headers */,
+				6370F02156E6418A8275CDE3DECCEEDA /* ARNRouletteWheelView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		707D67519C661C5E7D584954C85CB4D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B83CB30A1F6EDB9ED7FC1EBB2AC7014A /* Pods-ARNRouletteWheelView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9374B248A7EDE7207AFF4A7E1E01E4EF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0113394CF1B0D75597E59E0C3E335B45 /* ARNRouletteWheelView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +303,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3524E41835E31AE507E5AD80458C9795 /* ARNRouletteWheelView-ARNRouletteWheelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC4D436B6964F10E1949470884E67D0 /* Build configuration list for PBXNativeTarget "ARNRouletteWheelView-ARNRouletteWheelView" */;
+			buildPhases = (
+				3014140385FD5968CD28DD7DCDD92BAA /* Sources */,
+				0ACAE2EA80B129B930B71BCF6EC983E6 /* Frameworks */,
+				A8424D01D89041756EE4CB9FA566EAD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARNRouletteWheelView-ARNRouletteWheelView";
+			productName = "ARNRouletteWheelView-ARNRouletteWheelView";
+			productReference = 7EC3CCB5C27F764971E12F9D8744A756 /* ARNRouletteWheelView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		54F27E9EC5C5EBEF3A3473EE44C2B807 /* Pods-ARNRouletteWheelView_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E974CB3B4E8A5A9B31931298416E0490 /* Build configuration list for PBXNativeTarget "Pods-ARNRouletteWheelView_Tests" */;
@@ -289,7 +331,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4E5AB06FCA653885D68F0CC1BE3B6ED9 /* PBXTargetDependency */,
+				851A80AB05E4F0AB92CDB65573371490 /* PBXTargetDependency */,
 			);
 			name = "Pods-ARNRouletteWheelView_Tests";
 			productName = "Pods-ARNRouletteWheelView_Tests";
@@ -307,48 +349,31 @@
 			buildRules = (
 			);
 			dependencies = (
-				1D5CE1D54BEC3422D312A1D76D8270C0 /* PBXTargetDependency */,
+				4AFE841B848234509288960439777B29 /* PBXTargetDependency */,
 			);
 			name = "Pods-ARNRouletteWheelView_Example";
 			productName = "Pods-ARNRouletteWheelView_Example";
 			productReference = F7AFC55BA955EBCAA45CD544E9119361 /* Pods_ARNRouletteWheelView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		74C5D96744DB52596A2C198A69AFE866 /* ARNRouletteWheelView */ = {
+		D5DDD0A80C6C8CA6A5BACC0254EA4A6B /* ARNRouletteWheelView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BD2D5AF998340AB7D1308AE6FF18532 /* Build configuration list for PBXNativeTarget "ARNRouletteWheelView" */;
+			buildConfigurationList = 1E2CF345878A0EA1795474FC560359A9 /* Build configuration list for PBXNativeTarget "ARNRouletteWheelView" */;
 			buildPhases = (
-				7AD16CCDCC08C358BD268D561377E411 /* Sources */,
-				BAC496D59F6BE0C2E72BB884132F2A07 /* Frameworks */,
-				E0DE7AB563EE5C143C3553CD63C9E661 /* Resources */,
-				9374B248A7EDE7207AFF4A7E1E01E4EF /* Headers */,
+				9B1439D87E88D3F3A984F584242C774E /* Sources */,
+				5CC509FD2ECD9C43413960802F3E9FCC /* Frameworks */,
+				4DF0B62C508AB22A50463335E679FC88 /* Resources */,
+				35186A074E9E3416DE755E46349C4F10 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C2F43A0C0C22085AFFC36E21AD7D0FEB /* PBXTargetDependency */,
+				52E8861C24D0CDDED1785111542282D2 /* PBXTargetDependency */,
 			);
 			name = ARNRouletteWheelView;
 			productName = ARNRouletteWheelView;
-			productReference = F8A861A5A8740B78721C960D9EE058F1 /* ARNRouletteWheelView.framework */;
+			productReference = 2B5627C14F116323978AC3DF31EDE80E /* ARNRouletteWheelView.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		AF798AB4688D161237B04A788895B7A8 /* ARNRouletteWheelView-ARNRouletteWheelView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54ADA63E71301BA1F0640504CD254716 /* Build configuration list for PBXNativeTarget "ARNRouletteWheelView-ARNRouletteWheelView" */;
-			buildPhases = (
-				1F228E34791E0592ADC2E729723A48A2 /* Sources */,
-				4E70A03E440446F171E3795C20AAC31C /* Frameworks */,
-				A6176E37439B410ACDA1980416414BCA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ARNRouletteWheelView-ARNRouletteWheelView";
-			productName = "ARNRouletteWheelView-ARNRouletteWheelView";
-			productReference = 4FC924FB361EC863427727718DC4875E /* ARNRouletteWheelView.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -371,8 +396,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74C5D96744DB52596A2C198A69AFE866 /* ARNRouletteWheelView */,
-				AF798AB4688D161237B04A788895B7A8 /* ARNRouletteWheelView-ARNRouletteWheelView */,
+				D5DDD0A80C6C8CA6A5BACC0254EA4A6B /* ARNRouletteWheelView */,
+				3524E41835E31AE507E5AD80458C9795 /* ARNRouletteWheelView-ARNRouletteWheelView */,
 				5E426D07CD821DACEC290BC8164622B6 /* Pods-ARNRouletteWheelView_Example */,
 				54F27E9EC5C5EBEF3A3473EE44C2B807 /* Pods-ARNRouletteWheelView_Tests */,
 			);
@@ -380,31 +405,24 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A6176E37439B410ACDA1980416414BCA /* Resources */ = {
+		4DF0B62C508AB22A50463335E679FC88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB6F6CC23761AD654210BAFFE9D8E2B /* ARNRouletteWheelView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0DE7AB563EE5C143C3553CD63C9E661 /* Resources */ = {
+		A8424D01D89041756EE4CB9FA566EAD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6705440098B0572419E364C1D89E845 /* ARNRouletteWheelView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F228E34791E0592ADC2E729723A48A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		256C69F983C5DA5CB71ED0BC631E8490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,12 +431,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AD16CCDCC08C358BD268D561377E411 /* Sources */ = {
+		3014140385FD5968CD28DD7DCDD92BAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E69B7D1A5F4346C5F4F9EA801BAC4DD /* ARNRouletteWheelView-dummy.m in Sources */,
-				EEE152D36F8251695FAF6C0D1DF28769 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1439D87E88D3F3A984F584242C774E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21C91A292166F42C297B30C6790DDA5 /* ARNRouletteWheelCell.m in Sources */,
+				4413BBB10C8CDF6521DD61378A6EC9BE /* ARNRouletteWheelLayout.m in Sources */,
+				2EE9724EC04219B253AFF910F5D09858 /* ARNRouletteWheelLayoutAttributes.m in Sources */,
+				EC3A88265F85797A4953B70CEFA91A31 /* ARNRouletteWheelView-dummy.m in Sources */,
+				25BBB3144ABB4F91AD0F0441B0535254 /* ARNRouletteWheelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,23 +461,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D5CE1D54BEC3422D312A1D76D8270C0 /* PBXTargetDependency */ = {
+		4AFE841B848234509288960439777B29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ARNRouletteWheelView;
-			target = 74C5D96744DB52596A2C198A69AFE866 /* ARNRouletteWheelView */;
-			targetProxy = 588300DE1C507042F543F37F9CBF4009 /* PBXContainerItemProxy */;
+			target = D5DDD0A80C6C8CA6A5BACC0254EA4A6B /* ARNRouletteWheelView */;
+			targetProxy = 1F53AD75DC3B103E3E91DC279B8A7B39 /* PBXContainerItemProxy */;
 		};
-		4E5AB06FCA653885D68F0CC1BE3B6ED9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ARNRouletteWheelView;
-			target = 74C5D96744DB52596A2C198A69AFE866 /* ARNRouletteWheelView */;
-			targetProxy = A4520DE21740DA8E63E673DA0D5EE9B5 /* PBXContainerItemProxy */;
-		};
-		C2F43A0C0C22085AFFC36E21AD7D0FEB /* PBXTargetDependency */ = {
+		52E8861C24D0CDDED1785111542282D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ARNRouletteWheelView-ARNRouletteWheelView";
-			target = AF798AB4688D161237B04A788895B7A8 /* ARNRouletteWheelView-ARNRouletteWheelView */;
-			targetProxy = 1B0DE9106E0AEEEB8B8B7697D9981C27 /* PBXContainerItemProxy */;
+			target = 3524E41835E31AE507E5AD80458C9795 /* ARNRouletteWheelView-ARNRouletteWheelView */;
+			targetProxy = E1A5FD064E9B4AB86FCCE0F71DF97F9E /* PBXContainerItemProxy */;
+		};
+		851A80AB05E4F0AB92CDB65573371490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARNRouletteWheelView;
+			target = D5DDD0A80C6C8CA6A5BACC0254EA4A6B /* ARNRouletteWheelView */;
+			targetProxy = 223F38F0E9D0C536442750AF1271FD27 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -556,9 +584,9 @@
 			};
 			name = Release;
 		};
-		774A307A50027FDB1CA98E355D5B2F0F /* Debug */ = {
+		390634D777A17F1CBDF5AF3F2E5BAA32 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C213C9173A5A88B3BCA3493079C59C5 /* ARNRouletteWheelView-Private.xcconfig */;
+			baseConfigurationReference = 75A80AAB87AFC046865FB0DDBC83B266 /* ARNRouletteWheelView-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = ARNRouletteWheelView;
@@ -568,9 +596,21 @@
 			};
 			name = Debug;
 		};
-		9A982EEC875DE7166AA0A0C05C453867 /* Debug */ = {
+		58A089B37F9845CE5024729CF71F7346 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C213C9173A5A88B3BCA3493079C59C5 /* ARNRouletteWheelView-Private.xcconfig */;
+			baseConfigurationReference = 75A80AAB87AFC046865FB0DDBC83B266 /* ARNRouletteWheelView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ARNRouletteWheelView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6E82B9724E9CC75AAA806FA1AD28B232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A80AAB87AFC046865FB0DDBC83B266 /* ARNRouletteWheelView-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0.1.0;
@@ -595,9 +635,9 @@
 			};
 			name = Debug;
 		};
-		AEB2E245016BDD58C9B3C16A7373C383 /* Release */ = {
+		896C9848D385503582449FFF7B756608 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C213C9173A5A88B3BCA3493079C59C5 /* ARNRouletteWheelView-Private.xcconfig */;
+			baseConfigurationReference = 75A80AAB87AFC046865FB0DDBC83B266 /* ARNRouletteWheelView-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0.1.0;
@@ -709,35 +749,23 @@
 			};
 			name = Release;
 		};
-		F366B65BB92D3827224DC4CBC8142DDD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C213C9173A5A88B3BCA3493079C59C5 /* ARNRouletteWheelView-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ARNRouletteWheelView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1E2CF345878A0EA1795474FC560359A9 /* Build configuration list for PBXNativeTarget "ARNRouletteWheelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E82B9724E9CC75AAA806FA1AD28B232 /* Debug */,
+				896C9848D385503582449FFF7B756608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
 				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		54ADA63E71301BA1F0640504CD254716 /* Build configuration list for PBXNativeTarget "ARNRouletteWheelView-ARNRouletteWheelView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				774A307A50027FDB1CA98E355D5B2F0F /* Debug */,
-				F366B65BB92D3827224DC4CBC8142DDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -751,11 +779,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BD2D5AF998340AB7D1308AE6FF18532 /* Build configuration list for PBXNativeTarget "ARNRouletteWheelView" */ = {
+		6DC4D436B6964F10E1949470884E67D0 /* Build configuration list for PBXNativeTarget "ARNRouletteWheelView-ARNRouletteWheelView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A982EEC875DE7166AA0A0C05C453867 /* Debug */,
-				AEB2E245016BDD58C9B3C16A7373C383 /* Release */,
+				390634D777A17F1CBDF5AF3F2E5BAA32 /* Debug */,
+				58A089B37F9845CE5024729CF71F7346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

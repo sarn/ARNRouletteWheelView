@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ARNRouletteWheelView: 90f4e9ea7fd539695755195eeabec665bddcb0f9
+  ARNRouletteWheelView: 7dec22bbf3da6b05733362f7469e011d926cd2ca
 
 COCOAPODS: 0.38.2
