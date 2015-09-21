@@ -10,6 +10,8 @@ A custom UICollectionView layout which resembles a spinning roulette wheel. The 
 
 ![](rouletteViewDemo.gif?raw=true "ARNRouletteWheelView in action")
 
+This custom layout is based on the article by Rounak Jain. Thanks for the awesome article and work. The article is available here: http://www.raywenderlich.com/107687/uicollectionview-custom-layout-tutorial-spinning-wheel
+
 ## Usage
 
 Add the <tt>ARNRouletteWheelView</tt> to your <tt>UIViewController</tt>, overwrite the default cell with your custom <tt>ARNRouletteWheelCell</tt> subclass and optionally tweak the settings like wheel radius, the spacing between items and the size of the items.
