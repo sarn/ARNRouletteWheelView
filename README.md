@@ -12,8 +12,9 @@ A custom UICollectionView layout which resembles a spinning roulette wheel. The 
 
 ## Usage
 
-Add the <tt>ARNRouletteWheelView</tt> to your <tt>UIViewController</tt>, overwrite the default cell with yout custom <tt>UICollectionViewCell</tt> subclass and optionally tweak the settings like wheel radius, the spacing between items and the size of the items.
+Add the <tt>ARNRouletteWheelView</tt> to your <tt>UIViewController</tt>, overwrite the default cell with your custom <tt>ARNRouletteWheelCell</tt> subclass and optionally tweak the settings like wheel radius, the spacing between items and the size of the items.
 
+To have a full screen <tt>ARNRouletteWheelView</tt>:
 ```  objective-c
 ARNRouletteWheelView *rouletteWheelView = [[ARNRouletteWheelView alloc] initWithFrame:self.view.frame];
 rouletteWheelView.dataSource = self;
@@ -29,10 +30,10 @@ rouletteWheelView.dataSource = self;
 [self.view addSubview:rouletteWheelView];
 ```
 
-Your custom <tt>UICollectionViewCell</tt> subclass could look like this:
+Your custom <tt>ARNRouletteWheelCell</tt> subclass could look like this:
 ```  objective-c
 @interface ARNPosterCell ()
-    @property (nonatomic, strong) UIImageView *imageView;
+@property (nonatomic, strong) UIImageView *imageView;
 @end
 
 @implementation ARNPosterCell
@@ -53,7 +54,6 @@ Your custom <tt>UICollectionViewCell</tt> subclass could look like this:
         [self.imageView setImage:image];
     }
 }
-
 @end
 ```
 
