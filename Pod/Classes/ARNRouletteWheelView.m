@@ -65,4 +65,21 @@
     ((ARNRouletteWheelLayout *)self.collectionViewLayout).itemSize = itemSize;
 }
 
+#pragma mark - Interacting with the collection view
+- (void)scrollToItemAtIndexPath:(NSIndexPath *)indexPath atScrollPosition:(UICollectionViewScrollPosition)scrollPosition animated:(BOOL)animated {
+    if (indexPath.section == 0 && scrollPosition == UICollectionViewScrollPositionCenteredHorizontally) {
+        [self arn_positionToCenterItemAtIndex:indexPath.row animated:animated];
+    }
+}
+
+- (void)arn_positionToCenterItemAtIndex:(NSInteger)index animated:(BOOL)animated {
+    NSInteger totalItems = [self.dataSource collectionView:self numberOfItemsInSection:0];
+    if (index != NSNotFound && index < totalItems) {
+        CGFloat csw = self.contentSize.width;
+        CGFloat inset = self.frame.size.width;
+        CGFloat step = (csw - inset) / (totalItems - 1);
+        [self setContentOffset:CGPointMake(step * index, self.contentOffset.y) animated:animated];
+    }
+}
+
 @end
