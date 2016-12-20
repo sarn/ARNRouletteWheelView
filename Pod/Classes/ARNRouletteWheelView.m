@@ -65,7 +65,10 @@
     ((ARNRouletteWheelLayout *)self.collectionViewLayout).itemSize = itemSize;
 }
 
-#pragma mark - Interacting with the collection view
+
+#pragma mark -
+#pragma mark Interacting with the collection view
+
 - (void)scrollToItemAtIndexPath:(NSIndexPath *)indexPath atScrollPosition:(UICollectionViewScrollPosition)scrollPosition animated:(BOOL)animated {
     if (indexPath.section == 0 && scrollPosition == UICollectionViewScrollPositionCenteredHorizontally) {
         [self arn_positionToCenterItemAtIndex:indexPath.row animated:animated];
